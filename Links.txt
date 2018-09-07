@@ -1,0 +1,2 @@
+http://keepass.info/help/v1_sdk/annotated.html
+http://keepass.info/help/v1_dev/plg_index.html
