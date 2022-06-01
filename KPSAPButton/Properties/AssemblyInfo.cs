@@ -1,6 +1,6 @@
 ﻿/*
   KPSAPButton - SAPgui logon plug-in for KeePass
-  Copyright (C) 2911 Momchil Minchev <minchevm@gmail.com>  
+  Copyright (C) 2011 Momchil Minchev <minchevm@gmail.com>  
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -47,4 +47,4 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 [assembly: AssemblyVersion("2.1.*")]
-[assembly: AssemblyFileVersion("1.0.0.4")]
+[assembly: AssemblyFileVersion("1.0.0.5")]

@@ -36,3 +36,15 @@ D:\AFLC\KPSAPButton 1.0.0.5\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.Reso
 D:\AFLC\KPSAPButton 1.0.0.5\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.csproj.GenerateResource.Cache
 D:\AFLC\KPSAPButton 1.0.0.5\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.dll
 D:\AFLC\KPSAPButton 1.0.0.5\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.pdb
+D:\Projects\KPSAPButton\KPSAPButton\bin\Release\KPSAPButton.dll
+D:\Projects\KPSAPButton\KPSAPButton\bin\Release\KPSAPButton.pdb
+D:\Projects\KPSAPButton\KPSAPButton\bin\Release\KeePass.exe
+D:\Projects\KPSAPButton\KPSAPButton\bin\Release\KeePass.exe.config
+D:\Projects\KPSAPButton\KPSAPButton\bin\Release\KeePass.XmlSerializers.dll
+D:\Projects\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.csproj.AssemblyReference.cache
+D:\Projects\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.Resource.resources
+D:\Projects\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.csproj.GenerateResource.cache
+D:\Projects\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.csproj.CoreCompileInputs.cache
+D:\Projects\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.csproj.CopyComplete
+D:\Projects\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.dll
+D:\Projects\KPSAPButton\KPSAPButton\obj\Release\KPSAPButton.pdb

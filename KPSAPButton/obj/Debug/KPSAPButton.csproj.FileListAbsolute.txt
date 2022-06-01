@@ -23,3 +23,15 @@ D:\C#\KPSAPButton\KPSAPButton\obj\Debug\KPSAPButton.dll
 D:\C#\KPSAPButton\KPSAPButton\obj\Debug\KPSAPButton.pdb
 E:\C#\KPSAPButton\KPSAPButton\obj\Debug\GenerateResource-ResGen.read.1.tlog
 E:\C#\KPSAPButton\KPSAPButton\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Projects\KPSAPButton\KPSAPButton\bin\Debug\KPSAPButton.dll
+D:\Projects\KPSAPButton\KPSAPButton\bin\Debug\KPSAPButton.pdb
+D:\Projects\KPSAPButton\KPSAPButton\bin\Debug\KeePass.exe
+D:\Projects\KPSAPButton\KPSAPButton\bin\Debug\KeePass.exe.config
+D:\Projects\KPSAPButton\KPSAPButton\bin\Debug\KeePass.XmlSerializers.dll
+D:\Projects\KPSAPButton\KPSAPButton\obj\Debug\KPSAPButton.csproj.AssemblyReference.cache
+D:\Projects\KPSAPButton\KPSAPButton\obj\Debug\KPSAPButton.Resource.resources
+D:\Projects\KPSAPButton\KPSAPButton\obj\Debug\KPSAPButton.csproj.GenerateResource.cache
+D:\Projects\KPSAPButton\KPSAPButton\obj\Debug\KPSAPButton.csproj.CoreCompileInputs.cache
+D:\Projects\KPSAPButton\KPSAPButton\obj\Debug\KPSAPButton.csproj.CopyComplete
+D:\Projects\KPSAPButton\KPSAPButton\obj\Debug\KPSAPButton.dll
+D:\Projects\KPSAPButton\KPSAPButton\obj\Debug\KPSAPButton.pdb

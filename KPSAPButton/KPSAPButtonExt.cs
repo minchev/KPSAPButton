@@ -28,7 +28,6 @@ namespace KPSAPButton
         private ToolStripSeparator m_tsSeparator = null;
         private ToolStripMenuItem m_tsmiSAP = null;
         private string m_sSAPGUIPath = "";
-        private string m_sSAPIni = "";
         public static System.Diagnostics.Process SAPProcess = new System.Diagnostics.Process();
 
         public override bool Initialize(IPluginHost host)
@@ -40,24 +39,21 @@ namespace KPSAPButton
             //Get SAPgui paths
             if (GetSAPGUIPath())
             {
-                if (GetSAPINIPath())
-                {
-                    //Get a reference to the 'Tools' menu item container
-                    ToolStripItemCollection tsMenu = m_host.MainWindow.ToolsMenu.DropDownItems;
+                //Get a reference to the 'Tools' menu item container
+                ToolStripItemCollection tsMenu = m_host.MainWindow.ToolsMenu.DropDownItems;
 
-                    //// Add a separator at the bottom
-                    m_tsSeparator = new ToolStripSeparator();
-                    tsMenu.Add(m_tsSeparator);
+                //// Add a separator at the bottom
+                m_tsSeparator = new ToolStripSeparator();
+                tsMenu.Add(m_tsSeparator);
 
-                    // Add the popup menu item
-                    m_tsmiSAP = new ToolStripMenuItem();
-                    m_tsmiSAP.Text = "Logon SAPgui";
-                    m_tsmiSAP.ShortcutKeys = Keys.F12;
-                    m_tsmiSAP.Click += OnKPSAP;
-                    m_tsmiSAP.Image = KPSAPButton.Resource.IconImage;
-                    tsMenu.Add(m_tsmiSAP);
-                    return true;
-                };
+                // Add the popup menu item
+                m_tsmiSAP = new ToolStripMenuItem();
+                m_tsmiSAP.Text = "Logon SAPgui";
+                m_tsmiSAP.ShortcutKeys = Keys.F12;
+                m_tsmiSAP.Click += OnKPSAP;
+                m_tsmiSAP.Image = KPSAPButton.Resource.IconImage;
+                tsMenu.Add(m_tsmiSAP);
+                return true;
             };
 
             return false;
@@ -117,9 +113,11 @@ namespace KPSAPButton
                 iCnt++;
                 switch (iCnt)
                 {
-                    case 1: sSysid = w;
+                    case 1:
+                        sSysid = w;
                         break;
-                    case 2: sClient = w;
+                    case 2:
+                        sClient = w;
                         break;
                 }
             }
@@ -136,7 +134,7 @@ namespace KPSAPButton
 
             //TODO:Check against SAPLOGON.INI
 
-            if (m_sSAPGUIPath == "" || m_sSAPIni == "") return;
+            if (m_sSAPGUIPath == "") return;
             SAPProcess.StartInfo.Arguments = "";
             //SAPProcess.StartInfo.Arguments += " -sysname=" + sSysid; //MHM:20150611
             SAPProcess.StartInfo.Arguments += " -sysname=" + sSysid;   //MHM:20150611
@@ -216,17 +214,6 @@ namespace KPSAPButton
             }
             return bOk;
         } //GetSAPGUIPath
-
-        private bool GetSAPINIPath()
-        {
-            m_sSAPIni = Environment.GetEnvironmentVariable("WINDIR") + "\\saplogon.ini";
-            if (!File.Exists(m_sSAPIni))
-            {
-                MessageBox.Show("SAPLOGON.INI not found!", Resource.MessageTitleText);
-                return false;
-            }
-            else return true;
-        } //GetSAPINIPath
 
         private bool CheckSAPGUIPath()
         {
