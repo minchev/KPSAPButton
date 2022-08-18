@@ -141,7 +141,7 @@ namespace KPSAPButton
             SAPProcess.StartInfo.Arguments += " -maxgui";
             SAPProcess.StartInfo.Arguments += " -client=" + sClient;
             SAPProcess.StartInfo.Arguments += " -user=" + pUser;
-            SAPProcess.StartInfo.Arguments += " -pw=" + pPass;
+            SAPProcess.StartInfo.Arguments += " -pw=" + pPass; //Cannot correcly send some special characters like " for now
             //MessageBox.Show(sSysid + "/" + sClient + "/" + pUser + "/" + pPass, Resource.MessageTitleText);
             try
             {
